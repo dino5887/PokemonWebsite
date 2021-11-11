@@ -1,9 +1,9 @@
 .container{
     margin: auto;
     width: 90%;
-    max-width: 700px;
+    max-width: 900px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 4fr 3fr 1fr;
 }
 
 header {
@@ -13,7 +13,8 @@ header {
 }
 
 .menu{
-    grid-column: 1/3;
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-row:2;
 }
 
