@@ -23,3 +23,7 @@ footer {
     grid-row:4;
 }
 
+#pokemonLogo {
+    width: 100%;
+}
+
