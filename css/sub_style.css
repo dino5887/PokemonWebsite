@@ -38,7 +38,12 @@ section{
     padding-bottom: 12px;
 }
 
-
 .article_down{
     padding-top: 57px;
+}
+
+.article_spacing{
+    padding-top: 15px;
+    word-spacing: 5px;
+    
 }
