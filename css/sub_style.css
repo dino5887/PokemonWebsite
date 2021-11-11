@@ -3,7 +3,7 @@
     width: 90%;
     max-width: 900px;
     display: grid;
-    grid-template-columns: 4fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 header {
