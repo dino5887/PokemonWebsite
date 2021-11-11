@@ -3,7 +3,7 @@
     width: 90%;
     max-width: 900px;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 100px 2fr 1fr;
 }
 
 header {
@@ -22,8 +22,8 @@ header {
 .table{
     grid-column: 1;
     grid-row:3;
+    justify-self: center;
 }
-
 
 article{
     grid-column: 2;
@@ -36,8 +36,14 @@ section{
 }
 .table li{
     padding-bottom: 12px;
+    justify-self: center;
+}
+.table ul{
+    justify-self: center;
+    margin-left: -30px;
 }
 
+<<<<<<< HEAD
 .article_down{
     padding-top: 57px;
 }
@@ -47,3 +53,5 @@ section{
     word-spacing: 5px;
     
 }
+=======
+>>>>>>> f7a6d4284d06feb60b3a1c6d8b968baa2ee4c508
