@@ -22,11 +22,6 @@ header {
 .table{
     grid-column: 1;
     grid-row:3;
-<<<<<<< HEAD
-    justify-self: center;
-=======
-
->>>>>>> 298220675e30fb59237db6011059b2d5c5ccd221
 }
 
 
