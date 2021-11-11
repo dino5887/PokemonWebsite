@@ -1,0 +1,35 @@
+.menu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.menu li{
+    flex-basis: auto;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #148045;
+    margin-right: -2px;
+    margin-left: -2px;
+    margin-bottom: 15px;
+}
+a:link {
+    color: #9E1000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7D140F;
+}
+
+a:hover {
+    color:#0F5E7D;
+    background-color:#7D140F;;
+}
+
+.menu a.is_current{
+    color:#CC921A;
+    background-color:#148045;
+}
