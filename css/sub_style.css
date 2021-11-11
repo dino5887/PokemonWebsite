@@ -19,20 +19,27 @@ header {
     grid-row:2;
 }
 
+.page {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row:3;
+    justify-self: center;
+}
+
 .table{
     grid-column: 1;
-    grid-row:3;
+    grid-row:4;
     justify-self: center;
 }
 
 article{
     grid-column: 2;
-    grid-row:3;
+    grid-row:4;
     margin-left: 10px;
 }
 section{
     grid-column: 3;
-    grid-row:3;
+    grid-row:4;
 }
 .table li{
     padding-bottom: 12px;
