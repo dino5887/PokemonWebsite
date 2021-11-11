@@ -30,3 +30,18 @@ a:hover {
     color:#CC921A;
     background-color:#148045;
 }
+
+.table a.is_current{
+    color:#CC921A;
+    background-color:#148045;
+}
+
+.table ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.table {
+    background-color: rgb(40, 95, 190);
+}
