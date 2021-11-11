@@ -1,9 +1,11 @@
+@media (max-width: 600px){
 .container{
     margin: auto;
     width: 90%;
     max-width: 900px;
     display: grid;
     grid-template-columns: 1fr;
+}
 }
 
 header {
