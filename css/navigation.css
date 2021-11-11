@@ -1,3 +1,7 @@
+header{
+    justify-self: center;
+}
+
 .menu {
     background-color: rgb(40, 95, 190);
 }
