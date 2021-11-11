@@ -1,4 +1,4 @@
-@media (max-width: 600px){
+
 .container{
     margin: auto;
     width: 90%;
@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 100px 2fr 1fr;
 }
-}
+
 
 header {
     grid-column-start: 1;
