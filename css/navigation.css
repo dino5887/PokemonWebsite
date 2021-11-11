@@ -44,4 +44,7 @@ a:hover {
 }
 .table {
     background-color: rgb(40, 95, 190);
+    padding-bottom: 1250px;
+    display: grid;
+    justify-content: center;
 }
