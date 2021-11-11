@@ -22,6 +22,7 @@ header {
 .table{
     grid-column: 1;
     grid-row:3;
+    justify-self: center;
 }
 
 
@@ -36,4 +37,9 @@ section{
 }
 .table li{
     padding-bottom: 12px;
+    justify-self: center;
 }
+.table ul{
+    justify-self: center;
+}
+
