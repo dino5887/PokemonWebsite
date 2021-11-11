@@ -1,33 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 - The Pokemon Trainer's Guide</title>
-    <link rel="stylesheet" href="css/all_style.css">
-    <link rel="stylesheet" href="css/home_style.css">
-    <link rel="stylesheet" href="css/navigation.css">
-</head>
-
+<?php include "inc/html-top.php"; ?> 
 <body>
     <div class="container">
         <header>
             <h1>The Pokemon Trainer's Guide</h1>
         </header>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Guide</a>
-                </li>
-                <li>
-                    <a href="generations.html">Generations</a>
-                </li>
-                <li>
-                    <a href="starters.html">Starters</a>
-                </li>
-            </ul>
-        </nav>
+        <?php include "inc/nav-menu.php"; ?>
         <article>
             <h2>What is Pokemon?</h2>
             <figure>
