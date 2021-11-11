@@ -28,9 +28,12 @@ header {
 article{
     grid-column: 2;
     grid-row:3;
+    margin-left: 10px;
 }
 section{
     grid-column: 3;
     grid-row:3;
 }
-
+.table li{
+    padding-bottom: 12px;
+}
