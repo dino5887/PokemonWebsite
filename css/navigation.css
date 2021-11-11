@@ -1,32 +1,29 @@
-.menu ul{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 0;
+.menu {
+    background-color: rgb(40, 95, 190);
 }
 
-.menu li{
-    flex-basis: auto;
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #148045;
-    margin-right: -2px;
-    margin-left: -2px;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+    padding: 0;
 }
+
 a:link {
-    color: #9E1000;
+    font-weight: bold;
+    color: #e9e500;
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 a:visited {
-    color: #7D140F;
+    color: #e9e500;
 }
 
 a:hover {
-    color:#0F5E7D;
-    background-color:#7D140F;;
+    color:rgb(40, 95, 190);
+    background-color:#dad600;;
 }
 
 .menu a.is_current{
