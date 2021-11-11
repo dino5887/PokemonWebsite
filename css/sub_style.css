@@ -36,9 +36,9 @@ section{
 }
 .table li{
     padding-bottom: 12px;
-    justify-self: center;
-}
-.table ul{
-    justify-self: center;
 }
 
+
+.article_down{
+    padding-top: 57px;
+}
