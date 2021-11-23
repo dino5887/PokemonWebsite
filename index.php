@@ -1,4 +1,5 @@
-<?php include "inc/html-top-index.php"; ?> 
+<?php include "inc/html-top-index.php"; ?>
+
 <body>
     <div class="container">
         <header>
@@ -150,5 +151,11 @@
             </p>
         </footer>
     </div>
+    <?php
+
+    include "inc/scripts.php";
+
+    ?>
 </body>
+
 </html>
