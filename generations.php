@@ -21,7 +21,7 @@
                 </li>
                 <li id="gen2">2nd Gen - Pokemon Gold, Silver, and Crystal
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G2_01.png" alt="jpg">
                             <img src="images/G2_02.png" alt="jpg">
                             <img src="images/G2_03.png" alt="jpg">
@@ -31,7 +31,7 @@
                 </li>
                 <li id="gen3">3rd Gen - Pokemon Ruby, Sapphire, and Emerald
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G3_01.png" alt="jpg">
                             <img src="images/G3_02.png" alt="jpg">
                             <img src="images/G3_03.png" alt="jpg">
@@ -41,7 +41,7 @@
                 </li>
                 <li id="gen4">4th Gen - Pokemon Diamond, Pearl, and Platinum
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G4_01.png" alt="jpg">
                             <img src="images/G4_02.png" alt="jpg">
                             <img src="images/G4_03.png" alt="jpg">
@@ -51,7 +51,7 @@
                 </li>
                 <li id="gen5">5th Gen - Pokemon Black, White, Black 2, and White 2
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G5_01.png" alt="jpg">
                             <img src="images/G5_02.png" alt="jpg">
                             <img src="images/G5_03.png" alt="jpg">
@@ -62,7 +62,7 @@
                 </li>
                 <li id="gen6">6th Gen - Pokemon X and Y
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G6_01.png" alt="jpg">
                             <img src="images/G6_02.png" alt="jpg">
                         </div>
@@ -71,7 +71,7 @@
                 </li>
                 <li id="gen7">7th Gen - Pokemon Sun and Moon
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G7_01.png" alt="jpg">
                             <img src="images/G7_02.png" alt="jpg">
                         </div>
@@ -80,7 +80,7 @@
                 </li>
                 <li id="gen8">8th Gen - Pokemon Sword and Shield
                     <figure>
-                    <div class="slider">
+                        <div class="slider">
                             <img src="images/G8_01.png" alt="jpg">
                             <img src="images/G8_02.png" alt="jpg">
                         </div>
