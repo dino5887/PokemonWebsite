@@ -31,13 +31,8 @@ a:hover {
 }
 
 .menu a.is-current {
-    color: #CC921A;
-    background-color: #148045;
-}
-
-.table a.is-current {
-    color: #CC921A;
-    background-color: #148045;
+    color: rgb(40, 95, 190);
+    background-color: #dad600;
 }
 
 .table ul {
