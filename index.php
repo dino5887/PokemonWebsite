@@ -7,7 +7,6 @@
         </header>
         <?php include "inc/nav-menu.php"; ?>
         <div class="bar-container"></div>
-
 <script>
     // Instantiate bar chart and container
     const barChart = britecharts.bar();
