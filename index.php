@@ -7,48 +7,12 @@
         </header>
         <?php include "inc/nav-menu.php"; ?>
         <div class="bar-container"></div>
-        <script>
-            // Instantiate bar chart and container
-            const barChart = britecharts.bar();
-            const container = d3.select('.bar-container');
-
-            // Create Dataset with proper shape
-            const barData = [{
-                    name: 'Luminous',
-                    value: 2
-                },
-                {
-                    name: 'Glittering',
-                    value: 5
-                },
-                {
-                    name: 'Intense',
-                    value: 4
-                },
-                {
-                    name: 'Radiant',
-                    value: 3
-                }
-            ];
-
-            // Configure chart
-            barChart
-                .margin({
-                    left: 100
-                })
-                .isHorizontal(true)
-                .height(400)
-                .width(600);
-
-            container.datum(barData).call(barChart);
-        </script>
         <article>
             <h2>What is Pokemon?</h2>
             <figure>
                 <img id="pokemonLogo" src="images/logo.png" alt="Pokemon Logo">
             </figure>
-
-
+            <?php include "inc/bar.php"; ?>
             <p>
                 Pokémon executive director Satoshi Tajiri first thought of Pokémon,
                 albeit with a different concept and name, around 1989,
@@ -63,7 +27,7 @@
                 by collecting all of the available Pokémon species found in the fictional
                 region where a game takes place, to complete the national Pokédex by
                 transferring Pokémon from other regions, and to train a team of powerful
-                Pokémon from those they have caught to compete against teams owned by other
+                Pokémon from those they have caught to compete against teams owned by others
                 Trainers so they may eventually win the Pokémon League and become the
                 regional Champion. These themes of collecting, training, and battling are
                 present in almost every version of the Pokémon franchise, including the
