@@ -3,30 +3,60 @@
             const container = d3.select('.bar-container');
 
             const barData = [{
-                    name: 'Luminous',
-                    value: 2
+                    name: 'Gen 1',
+                    value: 151
                 },
                 {
-                    name: 'Glittering',
-                    value: 5
+                    name: 'Gen 2',
+                    value: 100
                 },
                 {
-                    name: 'Intense',
-                    value: 4
+                    name: 'Gen 3',
+                    value: 135
                 },
                 {
-                    name: 'Radiant',
-                    value: 3
+                    name: 'Gen 4',
+                    value: 107
+                },
+                {
+                    name: 'Gen 5',
+                    value: 156
+                },
+                {
+                    name: 'Gen 6',
+                    value: 72
+                },
+                {
+                    name: 'Gen 7',
+                    value: 88
+                },
+                {
+                    name: 'Gen 8',
+                    value: 92
                 }
             ];
 
             barChart
-                .margin({
-                    left: 100
-                })
-                .isHorizontal(true)
+                .isHorizontal(false)
                 .height(400)
-                .width(600);
+                .width(900)
+                .enableLabels(true)
+                .labelsNumberFormat('1')
+                .isAnimated(true)
+                
 
             container.datum(barData).call(barChart);
+
+            const redrawChart = () => {
+            const newContainerWidth = container.node() ? container.node().getBoundingClientRect().width : false;
+
+            barChart.width(newContainerWidth);
+
+            container.call(barChart);
+        };
+        const throttledRedraw = _.throttle(redrawChart, 200);
+
+        window.addEventListener("resize", throttledRedraw);
+
+
         </script>

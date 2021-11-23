@@ -6,13 +6,11 @@
             <h1>The Pokemon Trainer's Guide</h1>
         </header>
         <?php include "inc/nav-menu.php"; ?>
-        <div class="bar-container"></div>
         <article>
             <h2>What is Pokemon?</h2>
             <figure>
                 <img id="pokemonLogo" src="images/logo.png" alt="Pokemon Logo">
             </figure>
-            <?php include "inc/bar.php"; ?>
             <p>
                 Pokémon executive director Satoshi Tajiri first thought of Pokémon,
                 albeit with a different concept and name, around 1989,
@@ -136,6 +134,9 @@
                 it comes to trading for a Pokemon you want (though you should probably
                 just keep it.)
             </p>
+            <h2>Pokemon Added In Every Generation:</h2>
+            <div class="bar-container">
+            <?php include "inc/bar.php"; ?></div>
         </article>
         <footer>
             <h2>Go Play!</h2>
