@@ -1,4 +1,5 @@
-<?php include "inc/html-top-sub.php"; ?> 
+<?php include "inc/html-top-sub.php"; ?>
+
 <body>
     <div class="container">
         <header>
@@ -61,7 +62,7 @@
         <header class="page">
             <h1>Pokemon Generations</h1>
         </header>
-        <article class = "article_down">
+        <article class="article_down">
             <p>
                 "Gen" is short for "generation" and refers to the time period in which a specific game was released.
             </p>
@@ -101,10 +102,14 @@
             </p>
         </article>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <?php
+
+    include "inc/scripts.php";
+
+    ?>
     <script src="sss/sss.js"></script>
     <script>
-    $('.slider').sss();
+        $('.slider').sss();
     </script>
 </body>
 

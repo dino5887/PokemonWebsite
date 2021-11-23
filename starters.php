@@ -1,4 +1,5 @@
-<?php include "inc/html-top-sub.php"; ?> 
+<?php include "inc/html-top-sub.php"; ?>
+
 <body>
     <div class="container">
         <header>
@@ -42,18 +43,18 @@
                     <figure>
                         <img src="images/starters_gen7.png" alt="gen 7 starters">
                     </figure>
-                    </li>
-                    <li id="gen8">8th Gen - Grookeyt, Scorbunny, Sobble
-                        <figure>
-                            <img src="images/starters_gen8.png" alt="gen 8 starters">
-                        </figure>
-                    </li>
+                </li>
+                <li id="gen8">8th Gen - Grookeyt, Scorbunny, Sobble
+                    <figure>
+                        <img src="images/starters_gen8.png" alt="gen 8 starters">
+                    </figure>
+                </li>
             </ul>
         </section>
         <header class="page">
             <h1>How to Pick a Starter Pokemon</h1>
         </header>
-        <article class = "article_spacing">
+        <article class="article_spacing">
             <p>
                 Starter Pokémon, or Starters, are the Pokémon a Trainer chooses at the
                 beginning of their Pokémon journey and the main protagonists of the Pokémon
@@ -80,7 +81,7 @@
                 and Mudkip gets Water and Ground-type after it evolves into a Marshtomp),
                 you may think about preferring that Pokémon because it may cover up many of
                 its weaknesses.
-            </p>    
+            </p>
             <p>In Pokémon Green, Pokémon Red and Blue, and Pokémon FireRed and LeafGreen, the player receives one of the Kanto starters Bulbasaur, Charmander and Squirtle as his first Pokémon from Professor Oak. The player's rival receives the starter Pokémon whose type is stronger against the player's chosen starter. </p>
             <p>These Starter Pokémon first appeared in Pokémon Gold and Silver where Professor Elm allows the player character to choose one of them. The rival of the player character takes the starter that is strongest against the player's. The same situation was present in Pokémon Crystal. In the remakes, Pokémon HeartGold and SoulSilver, the starters get a redesign. Now the chosen starter, as well as any other Pokémon that is first in the player's party, can follow the player character by walking behind them. </p>
             <p>In Pokémon Ruby and Sapphire, Emerald, Omega Ruby and Alpha Sapphire, after Professor Birch is rescued from a PoochyenaRSORAS or ZigzagoonE, he allows the player to keep the Pokémon they chose to rescue him with the choice between Treecko, Torchic, or Mudkip. </p>
@@ -90,5 +91,11 @@
             <p>In Pokémon Sword and Shield, Leon, the Champion of the Galar Pokémon League, offers the player a choice of Grookey, Scorbunny, and Sobble as their first Partner Pokémon. The players' rival Hop (who is Leon's younger brother) will choose the Pokémon with a type disadvantage to the player's choice. Leon takes the remaining Pokémon into his care, eventually using its final form in the Championship Match against the player. </p>
         </article>
     </div>
+    <?php
+
+    include "inc/scripts.php";
+
+    ?>
 </body>
+
 </html>
