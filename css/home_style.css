@@ -24,6 +24,10 @@ footer {
     grid-column: 1;
     grid-row:4;
 }
+.bar-container {
+    grid-column: 1;
+    grid-row:5;
+}
 
 #pokemonLogo {
     width: 100%;

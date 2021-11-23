@@ -6,11 +6,37 @@
             <h1>The Pokemon Trainer's Guide</h1>
         </header>
         <?php include "inc/nav-menu.php"; ?>
+        <div class="bar-container"></div>
+
+<script>
+    // Instantiate bar chart and container
+    const barChart = britecharts.bar();
+    const container = d3.select('.bar-container');
+
+    // Create Dataset with proper shape
+    const barData = [
+        { name: 'Luminous', value: 2 },
+        { name: 'Glittering', value: 5 },
+        { name: 'Intense', value: 4 },
+        { name: 'Radiant', value: 3 }
+    ];
+
+    // Configure chart
+    barChart
+        .margin({left: 100})
+        .isHorizontal(true)
+        .height(400)
+        .width(600);
+
+    container.datum(barData).call(barChart);
+</script>
         <article>
             <h2>What is Pokemon?</h2>
             <figure>
                 <img id="pokemonLogo" src="images/logo.png" alt="Pokemon Logo">
             </figure>
+
+
             <p>
                 Pokémon executive director Satoshi Tajiri first thought of Pokémon,
                 albeit with a different concept and name, around 1989,
