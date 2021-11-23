@@ -137,10 +137,6 @@
     include "inc/scripts.php";
 
     ?>
-    <script src="sss/sss.js"></script>
-    <script>
-        $('.slider').sss();
-    </script>
 </body>
 
 </html>
