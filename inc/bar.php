@@ -1,3 +1,4 @@
+
 <script>
             const barChart = britecharts.bar();
             const container = d3.select('.bar-container');
@@ -57,6 +58,4 @@
         const throttledRedraw = _.throttle(redrawChart, 200);
 
         window.addEventListener("resize", throttledRedraw);
-
-
-        </script>
+</script>
